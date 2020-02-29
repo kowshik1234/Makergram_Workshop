@@ -1,4 +1,4 @@
-const int sensor=A5; // Assigning analog pin A5 to variable 'sensor'
+const int sensor=A1; // Assigning analog pin A5 to variable 'sensor'
 float tempc; //variable to store temperature in degree Celsius
 float tempf; //variable to store temperature in Fahreinheit
 float vout; //temporary variable to hold sensor reading
