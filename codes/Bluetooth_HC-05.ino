@@ -1,8 +1,8 @@
 #include <SoftwareSerial.h>
 
-int RX_pin = 4; //Digital Pin 4 as new RX Pin
+int RX_pin = 3; //Digital Pin 3 as new RX Pin
 int TX_pin = 2; //Digital Pin 2 as new TX Pin
-SoftwareSerial BTserial(RX_pin, TX_pin); // 4 --> RX, 2 --> TX
+SoftwareSerial BTserial(RX_pin, TX_pin); // 3 --> RX, 2 --> TX
  
 String BT_data;//Data from the HC-05 module
 String Arduino_data;//Data from the Arduino
