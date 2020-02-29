@@ -1,4 +1,4 @@
-int LDR = A2; // select the input pin for LDR
+int LDR = A0; // select the input pin for LDR
 int LDRValue = 0; // variable to store the input value
 int indication = 7; //Pin that shows indication
 void setup()
