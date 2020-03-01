@@ -26,10 +26,12 @@ void loop()
         if(BT_data == "ON")
         {
          digitalWrite(indicator,HIGH);   
+         Serial.println("LED is ON");
         }
         else if(BT_data == "OFF")
         {
           digitalWrite(indicator,LOW);
+         Serial.println("LED is OFF")
         }
         else
         {
